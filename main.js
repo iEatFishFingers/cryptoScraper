@@ -1,5 +1,10 @@
 const API_KEY = "";
-
+// Include this at the top of your script file
+/**
+ * @OnlyCurrentDoc
+ * @scope https://www.googleapis.com/auth/spreadsheets
+ * @scope https://www.googleapis.com/auth/drive.file
+ */
 
 function getCryptoPrice(symbol) {
   const url = `https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=${symbol}`;
