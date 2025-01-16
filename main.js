@@ -1,4 +1,4 @@
-const API_KEY = "a5c0be01-75e4-4a90-8391-37aefaebc2a5";
+const API_KEY = "";
 
 
 function getCryptoPrice(symbol) {
